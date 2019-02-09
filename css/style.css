@@ -70,11 +70,55 @@ color: #808080;
     color: #363636;
     font-size: 60px;
     font-weight: bold;
+    margin-top: 90px;
+    text-align: center;
+}
+.section .featuresItem h2{
+    text-align: left;
+    margin-top: 0px;
 }
 p.featuresDesc{
     font-size: 18px;
     color: #808080;
 }
+.speechBulbble{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    height: auto;
+    max-height: 210px;
+    padding: 30px;
+}
+.speechBulbble p{
+    font-style: italic;
+    color: #808080;
+    font-size: 18px;
+    height:auto;
+    max-height: 112px;
+    overflow: hidden;
+}
+.testimonialDesc{
+    width: 100%;
+    height: auto;
+    margin-top:20px;
+}
+.testimonialImg{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+.testimonialInfo{
+    padding-left: 15px;
+}
+.testimonialInfo h3{
+    font-size:18px;
+    color: #363636;
+    margin-top: 7px;
+}
+.testimonialInfo span{
+    color: #667386;
+    font-size: 16px;
+}
+
 
 
 
