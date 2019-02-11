@@ -156,6 +156,60 @@ p.featuresDesc{
     transition-duration: 0.4s;
 
 }
+.testimonialSection{
+    border:0px;
+    padding: 95px 0px;
+}
+
+
+/* Red Section styles starts */
+.redSection {
+    width: 100%;
+    height: 520px;
+    margin-top: 90px;
+    margin-bottom: 160px;
+    position: relative;
+    background: linear-gradient(to bottom , #d90646 , #eb3f2d);
+}
+
+.redSection .row.largeScreen {
+    position: relative;
+}
+.rtl {
+    direction: rtl;
+}
+.rtl h5, 
+.rtl p {
+    text-align: right;
+}
+.media p {
+    color: white;
+    font-size: 16px;
+}
+.phone img {
+    position: absolute;
+    top: -90px;
+}
+.redSection .container, 
+.redSection .row {
+    height: 100%;
+}
+.redSection .row.smallSecreen {
+    position: absolute;
+    top: 5px;
+}
+.media span i {
+    color: white;
+    font-size: 45px;
+}
+.media h5 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
 
 
 
