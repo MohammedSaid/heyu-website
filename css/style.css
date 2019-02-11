@@ -274,12 +274,20 @@ ul.nav li:last-child > a{
 }
 .languageSelect{
     -webkit-border-radius: 50px;
+    border-radius: 50px;
     width: 200px;
     height: 50px;
     background: #f8f8f8;
     color: #363636;
     border: 0px;
     margin-top:35px;
+}
+.searchForm input.subscribeInput{
+    padding: 0px 15px;
+}
+.modal-content{
+    border: 0px;
+    background: none;
 }
 
 
