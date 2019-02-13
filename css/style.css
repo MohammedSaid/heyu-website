@@ -289,6 +289,36 @@ ul.nav li:last-child > a{
     border: 0px;
     background: none;
 }
+.scrollNav{
+    background: rgba(0,0,0,0.5) !important; 
+}
+.backToTop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom , #d90646 , #eb3f2d);
+    color: white;
+    text-align: center;
+    right: 20px;
+    bottom: 70px;
+    border:1px solid white;
+    font-size: 20px;
+    line-height: 48px;
+    z-index: 10;
+    opacity: 0.6;
+    transition-duration: 0.2s;
+    display: none;
+}
+.backToTop:hover{
+    color: white;
+    opacity: 1;
+    transition-duration: 0.2s;
+    line-height: 30px;
+}
+.visible{
+    display: block;
+}
 
 
 
@@ -300,10 +330,33 @@ ul.nav li:last-child > a{
 
 
 @media (max-width: 992px) { 
+    .mainSection h1{
+        font-size: 50px;
+    }
+    .mainSection span {
+        margin-bottom: 40px;
+    }
     .featuresItem{
         text-align: center;
     }
     .section h2{
         margin-top:40px;
+        font-size: 40px;
+    }
+    .section .featuresItem h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    .testimonialItem{
+        margin-bottom: 20px;
+    }
+    .redSection{
+        margin-bottom: 40px;
+    }
+    .subscribeSection{
+        padding-bottom: 100px;
+    }
+    ul.nav li a {
+        margin-right:40px;
     }
 }
